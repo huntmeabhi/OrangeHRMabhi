@@ -11,5 +11,12 @@ public class ObjectRepository {
 	public By Username (){
 		return By.xpath("//*[@id='txtUsername']");
 	}
+	public By Password (){
+		return By.xpath("//*[@id='txtPassword']");
+	}
+	public By Login (){
+		return By.xpath("//*[@id='btnLogin']");
+	}
+	
 			
 }
